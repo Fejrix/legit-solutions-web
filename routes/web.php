@@ -34,3 +34,4 @@ Route::view('/kontakty', 'contacts');
 Route::get('/kontakty', Contacts::class);
 Route::get('/blog', Blog::class);
 Route::get('/blog/{post}',Post::class);
+Route::view('/welcome', 'welcome');
