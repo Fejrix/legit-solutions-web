@@ -7,7 +7,7 @@
         <p class="text-legit">Pomáháme vizionářům plnit si svoje vize. Můžeme ti nabídnout to, co ostatní nazývají jen nutností. To, čemu spousta lidí a firem nepřikádá žádnou váhu. Jak se prezentuješ svému okolí. Odliš se z davu a ukaž, že kvalitní identita je hrdostí!</p>
     </section>
 
-    <section class="hidden w-[350px] md:flex shrink-0 justify-end">
+    <section class="hidden w-[350px] md:flex shrink-0 justify-end z-20">
         <div
           class="break-words rounded-lg shadow-md border-[2px] border-neutral-900 bg-[#1e1e1e]"
         >
@@ -33,7 +33,7 @@
               Přidej se do Legit komunity!
             </h2>
             <p class="mt-2 font-light text-white text-md">
-            Přečti si blog nebo se přidej do diskuse na jedné z našich <a class="text-orange-400 underline" href="#">sociálních sítí.</a> Chystáme velké věci, u kterých rozhodně nesmíš chybět!
+            Přečti si blog nebo se přidej do diskuse na jedné z našich <a class="underline text-orange-400" href="#">sociálních sítí.</a> Chystáme velké věci, u kterých rozhodně nesmíš chybět!
             </p>
           </blockquote>
         </div>
@@ -41,7 +41,7 @@
 </main>
 <main>
  
-    <h2 class="self-center m-auto text-xl font-bold text-center text-orange-400 nadpis-legit w-100">
+    <h2 class="text-xl nadpis-legit font-bold text-orange-400 self-center m-auto w-100 text-center">
               Co ti můžeme nabídnout
             </h2>
 
@@ -51,7 +51,7 @@
       <div class="flex flex-wrap">
         <div class="w-full px-4 pt-6 text-center md:w-4/12">
           <div
-            class="relative flex flex-col w-full min-w-0 mb-8 break-words rounded-lg shadow-sm border-[2px] border-neutral-900 bg-[#1e1e1e] hover:border-[#fe7575] hover:none"
+            class="relative z-20 flex flex-col w-full min-w-0 mb-8 break-words rounded-lg shadow-sm border-[2px] border-neutral-900 bg-[#1e1e1e] hover:border-[#fe7575] hover:none"
           >
           <a href="/backend">
           <div class="flex-auto px-4 py-5">
@@ -69,7 +69,7 @@
         </div>
         <div class="w-full px-4 text-center md:w-4/12">
           <div
-            class="relative flex flex-col w-full min-w-0 mb-8 break-words rounded-lg shadow-md border-[2px] border-neutral-900 bg-[#1e1e1e] hover:border-[#5ea2f6] hover:shadow-none"
+            class="relative z-20 flex flex-col w-full min-w-0 mb-8 break-words rounded-lg shadow-md border-[2px] border-neutral-900 bg-[#1e1e1e] hover:border-[#5ea2f6] hover:shadow-none"
           >
           <a href="/ux-ui-design">
           <div class="flex-auto px-4 py-5">
@@ -87,7 +87,7 @@
         </div>
         <div class="w-full px-4 pt-6 text-center md:w-4/12">
           <div
-            class="relative flex flex-col w-full min-w-0 mb-8 break-words rounded-lg shadow-md border-[2px] border-neutral-900 bg-[#1e1e1e] hover:border-[#49dc7f] hover:shadow-none"
+            class="relative z-20 flex flex-col w-full min-w-0 mb-8 break-words rounded-lg shadow-md border-[2px] border-neutral-900 bg-[#1e1e1e] hover:border-[#49dc7f] hover:shadow-none"
           >
           <a href="/IT Služby">
           <div class="flex-auto px-4 py-5">
@@ -117,7 +117,7 @@
         </div>
         <div class="w-full px-2 ml-auto md:w-5/12">
           <div
-            class="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-md border-[2px] border-neutral-900 bg-[#1e1e1e]"
+            class="relative z-20 flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-md border-[2px] border-neutral-900 bg-[#1e1e1e]"
           >
             <img
               alt="..."
@@ -221,7 +221,7 @@
       </div>
     </div>
   </section>
-  <section class="py-5 bg-[#181818]">
+  <section class="py-5 bg-[#181818] z-20">
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap justify-center mb-24 text-center">
         <div class="w-full px-4 lg:w-6/12">
@@ -334,6 +334,15 @@
     </div>
   </section>
 </main>
+
+<footer class="text-center bg-[#1e1e1e] lg:text-left">
+  <div class="p-4 text-center text-gray-200" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright: 
+    <a class="text-orange-400" href="https://legitsolutions.cz/">Legit Solutions</a>
+  </div>
+</footer>
+</div>
+
 <div class="absolute left-0 w-11/12 top-0 opacity-[2%] hidden xl:block z-1 pointer-events-none">
   <img src="../images/png/background-2.png" alt="">
 </div>
