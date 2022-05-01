@@ -14,8 +14,8 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <header>
-    <main x-data="{ expanded: false }" class="fixed top-0 z-0 flex flex-wrap justify-between w-full py-3 bg-neutral-900">
-      <section id="header-logo" class=" mt-[1px] text-white uppercase">
+    <main x-data="{ expanded: false }" class="fixed top-0 z-0 flex flex-wrap justify-between w-full py-3 border-b-2 shadow-none border-[#000000] bg-neutral-900">
+      <section id="header-logo" class="mt-[1px] text-white uppercase">
         <a href="/"><img class="absolute top-[11px] w-[80px] h-[80px]" src="../images/png/Logo.png" alt=""></a>
 
         <p class="pl-[75px] text-xl"><span class="text-orange-400">legit</span> solutions</p>
@@ -98,10 +98,10 @@
       </section>
     </main>
 </header>
-<body class="bg-[#1e1e1e]">
+<body class="bg-neutral-900">
   
 </body>
-<footer class="bottom-0 text-center bg-[#1e1e1e] lg:text-left">
+<footer class="bottom-0 text-center bg-neutral-900 lg:text-left">
   <div class="p-4 text-center text-gray-200" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2022 Copyright: 
     <a class="text-orange-400" href="https://legitsolutions.cz/">Legit Solutions</a>
